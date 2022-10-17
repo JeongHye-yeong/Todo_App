@@ -1,0 +1,20 @@
+$background-color:#22b8cf;//변수만들때 $표시 영어소문자 ,-,숫자만 가능 그외는 안됨
+
+.TodoTemplate{
+    width: 512px;
+    margin: 6rem auto;
+    border-radius: 4px;
+    overflow: hidden;
+    .app-title{
+        background: $background-color;
+        color: #fff;
+        height: 4rem;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        background: #fff;
+    }
+}
